@@ -26,7 +26,7 @@
   <header class="site-header" id="site-header">
     <nav class="nav container">
       <a href="#" class="nav-logo" aria-label="Orkney IT — home">
-        <img src="assets/images/orkney-it-logo.png" alt="Orkney IT" height="76" style="width:auto" />
+        <img src="assets/images/orkney-it-logo.png" alt="Orkney IT" />
       </a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -56,7 +56,7 @@
         </p>
         <div class="hero__ctas reveal">
           <a href="#contact" class="btn btn--primary">Talk to us today</a>
-          <a href="#services" class="btn btn--ghost">Our certifications</a>
+          <a href="#certifications" class="btn btn--ghost">Our certifications</a>
         </div>
       </div>
       <div class="hero__scroll-hint" aria-hidden="true">
@@ -169,34 +169,10 @@
           <p class="section-label reveal">Contact</p>
           <h2 class="section-title reveal">Let's talk<br /><em>technology</em></h2>
           <p class="contact__body reveal">Drop us a message and we'll get back to you as soon as we can.</p>
+          <p class="contact__email reveal">
+            Email us at <a href="mailto:hello@orkney.it">hello@orkney.it</a>
+          </p>
         </div>
-
-        <form class="contact__form reveal" id="contact-form" novalidate>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Your name <span aria-hidden="true">*</span></label>
-              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Jane Smith" />
-            </div>
-            <div class="form-group">
-              <label for="email">Email address <span aria-hidden="true">*</span></label>
-              <input type="email" id="email" name="email" autocomplete="email" required placeholder="jane@yourcompany.com" />
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="company">Company name</label>
-            <input type="text" id="company" name="company" autocomplete="organization" placeholder="Your Company Ltd" />
-          </div>
-          <div class="form-group">
-            <label for="message">Message <span aria-hidden="true">*</span></label>
-            <textarea id="message" name="message" rows="5" required placeholder="Tell us a little about your business and what you need help with…"></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">Send message</button>
-          <p class="form-note">We'll be in touch as soon as possible.</p>
-          <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-            <span>Thanks! We'll be in touch shortly.</span>
-          </div>
-        </form>
       </div>
     </section>
 
